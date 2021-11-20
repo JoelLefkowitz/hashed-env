@@ -1,5 +1,5 @@
 project: hashed-env
-version: 0.1.0
+version: 1.0.0
 author: joellefkowitz
 verbose_name: hashed-env
 html_title: hashed-env

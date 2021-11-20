@@ -1,6 +1,6 @@
 {
   "name": "hashed-env",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Seed pseudo-random environment variables with a repository's git hash.",
   "repository": "https://github.com/JoelLefkowitz/infer-version.git",
   "author": "joellefkowitz",

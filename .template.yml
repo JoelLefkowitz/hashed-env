@@ -12,7 +12,7 @@ excludes:
 render_context:
   name: hashed-env
   description: Seed pseudo-random environment variables with a repository's git hash.
-  version: 0.1.0
+  version: 1.0.0
   author: joellefkowitz
   repository: https://github.com/JoelLefkowitz/hashed-env.git
   codacy_id: 14dda3ed73cc47cca315d9582ce93fb7

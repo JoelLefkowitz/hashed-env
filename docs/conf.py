@@ -9,7 +9,7 @@ sys.path.append("..")
     Sphinx core settings
 """
 project = "hashed-env"
-version = "0.1.0"
+version = "1.0.0"
 author = "joellefkowitz"
 master_doc = "index"
 
