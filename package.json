@@ -1,12 +1,19 @@
 {
   "name": "hashed-env",
   "version": "0.1.0",
-  "description": "Seed random environment variables with a repository's git hash.",
+  "description": "Seed pseudo-random environment variables with a repository's git hash.",
   "repository": "https://github.com/JoelLefkowitz/infer-version.git",
   "author": "joellefkowitz",
   "license": "MIT",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
+  "keywords": [
+    "pseudo-random",
+    "environment",
+    "seed",
+    "git",
+    "hash"
+  ],
   "scripts": {
     "prepublish": "grunt build"
   },

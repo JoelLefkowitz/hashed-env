@@ -1,6 +1,6 @@
 # Hashed Env
 
-Seed random environment variables with a repository's git hash.
+Seed pseudo-random environment variables with a repository's git hash.
 
 ## Status
 
