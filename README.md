@@ -4,18 +4,29 @@ Seed random environment variables with a repository's git hash.
 
 ## Status
 
-| Source     | Shields                                                                                                                                       |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| Project    | ![release][release_shield] ![license][license_shield] ![lines][lines_shield] ![languages][languages_shield]                                   |
-| Health     | ![readthedocs][readthedocs_shield] ![github_review][github_review_shield]![codacy][codacy_shield] ![codacy_coverage][codacy_coverage_shield]  |
-| Publishers | ![npm][npm_shield] ![npm_downloads][npm_downloads_shield]                                                                                     |
-| Repository | ![issues][issues_shield] ![issues_closed][issues_closed_shield] ![pulls][pulls_shield] ![pulls_closed][pulls_closed_shield]                   |
-| Activity   | ![contributors][contributors_shield] ![monthly_commits][monthly_commits_shield] ![last_commit][last_commit_shield]                            |
+| Source     | Shields                                                                                                                                      |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Project    | ![release][release_shield] ![license][license_shield] ![lines][lines_shield] ![languages][languages_shield]                                  |
+| Health     | ![readthedocs][readthedocs_shield] ![github_review][github_review_shield]![codacy][codacy_shield] ![codacy_coverage][codacy_coverage_shield] |
+| Publishers | ![npm][npm_shield] ![npm_downloads][npm_downloads_shield]                                                                                    |
+| Repository | ![issues][issues_shield] ![issues_closed][issues_closed_shield] ![pulls][pulls_shield] ![pulls_closed][pulls_closed_shield]                  |
+| Activity   | ![contributors][contributors_shield] ![monthly_commits][monthly_commits_shield] ![last_commit][last_commit_shield]                           |
 
 ## Installing
 
 ```bash
 npm i hashed-env
+```
+
+## Usage
+
+```
+import { md5, set } from './hashed-env';
+
+set('bar', 'baz');
+
+process.env.foo = '' // MD5 of <git long hash>.concat('foo')
+process.env.bar = '' // MD5 of <git long hash>.concat('bar')
 ```
 
 ## Tests
