@@ -52,5 +52,17 @@
   },
   "dependencies": {
     "git-rev-sync": "^3.0.1"
+  },
+  "metadata": {
+    "documentation": "https://hashed-env.readthedocs.io/en/latest",
+    "languages": [
+      "TypeScript"
+    ],
+    "frameworks": [],
+    "paradigms": [
+      "Functional"
+    ],
+    "lifecycle": "Alpha",
+    "publisher": "npm"
   }
 }
