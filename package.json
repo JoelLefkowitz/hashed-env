@@ -55,6 +55,7 @@
   },
   "metadata": {
     "documentation": "https://hashed-env.readthedocs.io/en/latest",
+    "packages": "https://npmjs.com/package/hashed-env",
     "languages": [
       "TypeScript"
     ],
