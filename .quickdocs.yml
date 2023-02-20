@@ -1,7 +1,6 @@
 project: hashed-env
 version: 1.0.0
-author: joellefkowitz
-verbose_name: hashed-env
-html_title: hashed-env
-github_url: https://github.com/JoelLefkowitz/hashed-env.git
-apidoc_module_dir: src
+author: Joel Lefkowitz
+verbose_name: Hashed env
+html_title: Hashed env
+github_url: https://github.com/joellefkowitz/hashed-env

@@ -10,7 +10,7 @@ sys.path.append("..")
 """
 project = "hashed-env"
 version = "1.0.0"
-author = "joellefkowitz"
+author = "Joel Lefkowitz"
 master_doc = "index"
 
 extensions = [
@@ -21,7 +21,7 @@ extensions = [
     "sphinxcontrib.apidoc",
 ]
 
-html_title = "hashed-env"
+html_title = "Hashed env"
 html_favicon = "static/favicon.ico"
 
 html_static_path = ["static"]
@@ -41,16 +41,13 @@ typehints_fully_qualified = True
 autodoc_default_flags = ["members", "undoc-members"]
 napoleon_google_docstring = True
 
-apidoc_module_dir = "../src"
-apidoc_extra_args = ["-e"]
-
 """
     Yummy sphinx theme settings
 """
 html_theme = "yummy_sphinx_theme"
 html_theme_options = {
     "navbar_icon": "spin fa-book",
-    "github_url": "https://github.com/JoelLefkowitz/hashed-env.git"
+    "github_url": "https://github.com/joellefkowitz/hashed-env"
 }
 
 """
