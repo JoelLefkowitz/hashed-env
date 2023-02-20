@@ -1,6 +1,6 @@
 {
   "name": "hashed-env",
-  "version": "1.0.0", 
+  "version": "1.1.0", 
   "description": "Seed pseudo-random environment variables with a repository's git hash.",
   "repository": "https://github.com/joellefkowitz/hashed-env",
   "homepage": "https://hashed-env.readthedocs.io",
