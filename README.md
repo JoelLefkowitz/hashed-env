@@ -21,12 +21,11 @@ npm i hashed-env
 ## Usage
 
 ```ts
-import { md5, set } from './hashed-env';
+import { set } from './hashed-env';
 
-set('bar', 'baz');
+set('foo', 'bar');
 
-process.env.foo = ... // MD5 of <git long hash>.concat('foo')
-process.env.bar = ... // MD5 of <git long hash>.concat('bar')
+process.env.foo = ... // MD5 of (<git long hash>.concat('bar'))
 ```
 
 ## Tests
