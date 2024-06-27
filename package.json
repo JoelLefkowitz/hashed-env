@@ -1,7 +1,7 @@
 {
   "name": "hashed-env",
   "description": "Seed pseudo-random environment variables with a repository's git hash.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "license": "MIT",
   "author": "Joel Lefkowitz",
   "repository": "https://github.com/joellefkowitz/hashed-env",
